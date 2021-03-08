@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://jets/lab2"
+    xmlns="http://jets/lab2"
+    elementFormDefault="qualified"
+>
+    <xs:element name="library">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="location" type="xs:string"/>
+                <xs:element name="description" type="xs:string"/>
+                <xs:element name="librarian" type="xs:string"/>
+                <xs:element name="books" type="booksComplex"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:group name="bookElements">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="ISBN" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="preface" type="xs:string"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:complexType name="booksComplex">
+        <xs:sequence>
+            <xs:element name="book" type="bookType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="bookType">
+        <xs:sequence>
+            <xs:group ref="bookElements"/>
+            <xs:element name="parts">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="part"  type="partType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="partType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="chapters" >
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="chapter" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:all>
+                                    <xs:element name="summary" type="xs:string"/>
+                                    <xs:element name="sections" type="sectionsType"/>
+                                </xs:all>
+                                <xs:attribute name="title" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="sectionsType">
+        <xs:sequence>
+            <xs:element name="section" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+</xs:schema>

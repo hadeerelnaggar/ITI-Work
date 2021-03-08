@@ -1,0 +1,104 @@
+library:
+  location: giza
+  discription: hdkska
+  librarian: 273
+  books:
+    -book1:
+      title: ggg
+      ISBN: 123
+      Author: hhh
+      preface: sjsha
+      parts:
+        -part1:
+          title: jjjj
+          chapters:
+            -chapter1:
+              title: chapter 1
+              summary: jdjns cnsjns cksmx
+              sections:
+                -section1:
+                  content: jkdjswjwk
+                -section2:
+                  content: dhs djskwsj
+                -section3:
+                  content: jdjdkdmnkd dkdnekdm
+            -chapter2:
+              title: chapter 2
+              summary: djsjjsjsjs
+              sections:
+                -section1:
+                  content: hhhhhh
+                -section2:
+                  content: jjjjkkkk
+        -part2:
+          title: fff
+          chapters:
+            -chapter1:
+              title: chapter 1
+              summary: jdjns sdffds cksmx
+              sections:
+                -section1:
+                  content: aaaaa
+                -section2:
+                  content: dhs djskwsj
+                -section3:
+                  content: jdjdkdmnkd dkdnekdm
+        -part3:
+          title: sss
+          chapters:
+            -chapter1:
+              title: aaa
+              summary: sssccc
+              sections:
+                -section1:
+                  content: ssssaaa
+
+      -book2:
+        title: gaaagg
+        ISBN: 1233445
+        Author: hhh
+        preface: sjsha
+        parts:
+          -part1:
+            title: jjjj
+            chapters:
+              -chapter1:
+                title: chapter 1
+                summary: jdjns cnsjns cksmx
+                sections:
+                  -section1:
+                    content: jkdjswjwk
+                  -section2:
+                    content: dhs djskwsj
+                  -section3:
+                    content: jdjdkdmnkd dkdnekdm
+              -chapter2:
+                title: chapter 2
+                summary: djsjjsjsjs
+                sections:
+                  -section1:
+                    content: hhhhhh
+                  -section2:
+                    content: jjjjkkkk
+          -part2:
+            title: fff
+            chapters:
+              -chapter1:
+                title: chapter 1
+                summary: jdjns sdffds cksmx
+                sections:
+                  -section1:
+                    content: aaaaa
+                  -section2:
+                    content: dhs djskwsj
+                  -section3:
+                    content: jdjdkdmnkd dkdnekdm
+          -part3:
+            title: sss
+            chapters:
+              -chapter1:
+                title: aaa
+                summary: sssccc
+                sections:
+                  -section1:
+                    content: ssssaaa

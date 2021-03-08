@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     targetNamespace="http://jets/lab1"
+     xmlns="http://jets/lab1"
+     elementFormDefault="qualified"
+>
+    <xs:element name="test">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="WeekDay">
+                    <xs:simpleType>
+                        <xs:union memberTypes="integerRange stringRange"/>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="stringRange">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Saturday"/>
+            <xs:enumeration value="Sunday"/>
+            <xs:enumeration value="Monday"/>
+            <xs:enumeration value="Tuesday"/>
+            <xs:enumeration value="Wednesday"/>
+            <xs:enumeration value="Thursday"/>
+            <xs:enumeration value="Friday"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="integerRange">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="7"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+</xs:schema>

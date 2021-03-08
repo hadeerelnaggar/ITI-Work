@@ -1,0 +1,5 @@
+1- /catalog/cd[price>10]/title
+2- /catalog/cd[year<1990]
+3- /catalog/cd[country="UK"]/title | /catalog/cd[country="UK"]/price
+4- /catalog/cd[artist="Dolly Parton"]/preceding-sibling::node()/artist
+5- /catalog/cd[title="Private Dancer"]/following-sibling::node()/title

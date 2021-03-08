@@ -1,0 +1,14 @@
+{
+  "name": "hadeer",
+  "age": 22,
+  "addresses": [
+    {
+      "number": 63,
+      "street": "dokki"
+    },
+    {
+      "number": 102,
+      "street": "elsolimania"
+    }
+  ]
+}

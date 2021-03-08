@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DirectoryStructure.PageController" style="-fx-background-color: #5A75ED">
+   <top>
+      <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="169.0" text="File Browser" style="-fx-font-size: 20"/>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="389.0">
+               <children>
+                  <TextField fx:id="pathText" prefHeight="25.0" prefWidth="346.0" />
+                  <Button fx:id="fileChooserButton" mnemonicParsing="false" text="..." />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.22003034901365706" BorderPane.alignment="CENTER">
+        <items>
+            <TreeView fx:id="treeView" layoutX="1.0" />
+            <ListView fx:id="listView" layoutX="1.0" layoutY="-1.0" />
+        </items>
+      </SplitPane>
+   </center>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" />
+   </padding>
+</BorderPane>

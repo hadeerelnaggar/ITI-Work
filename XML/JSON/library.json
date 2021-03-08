@@ -1,0 +1,175 @@
+{
+  "library": {
+    "location": "giza",
+    "description": "a big library",
+    "librarian": "samir",
+    "books": [
+      {
+        "title": "the fault in outr stars",
+        "ISBN": 122,
+        "Author": "goerge",
+        "preface": "hhh",
+        "parts": [
+          {
+            "title": "hello",
+            "chapters": [
+              {
+                "title": "chapter 1",
+                "summary": "hdjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 2",
+                "summary": "hdjsjskdddds",
+                "sections": [
+                  {
+                    "content": "jfdjsjjddc,a;dxsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw dj;sx,s;xdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 3",
+                "summary": "hdsddssjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "hello",
+            "chapters": [
+              {
+                "title": "chapter 1",
+                "summary": "hdjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 2",
+                "summary": "hdjsjskdddds",
+                "sections": [
+                  {
+                    "content": "jfdjsjjddc,a;dxsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw dj;sx,s;xdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 3",
+                "summary": "hdsddssjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "the fault in outr stars",
+        "ISBN": 122,
+        "Author": "goerge",
+        "preface": "hhh",
+        "parts": [
+          {
+            "title": "hello",
+            "chapters": [
+              {
+                "title": "chapter 1",
+                "summary": "hdjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 2",
+                "summary": "hdjsjskdddds",
+                "sections": [
+                  {
+                    "content": "jfdjsjjddc,a;dxsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw dj;sx,s;xdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              },
+              {
+                "title": "chapter 3",
+                "summary": "hdsddssjsjsks",
+                "sections": [
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  },
+                  {
+                    "content": "jfdjsjjsjksw djdksm"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<test
+    xmlns="http://jets/lab1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation ="http://jets/lab1 lab1.xsd" >
+    <WeekDay>4</WeekDay>
+</test>

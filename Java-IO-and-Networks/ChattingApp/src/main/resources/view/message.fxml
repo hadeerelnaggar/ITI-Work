@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_RIGHT" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:id="messageVBox">
+   <children>
+      <Label fx:id="userName" style="-fx-font-size: 15" text="Label" wrapText="true" />
+      <HBox alignment="CENTER_RIGHT" spacing="20">
+         <children>
+            <Label fx:id="messageLabel" style="-fx-font-size: 10" text="Label" wrapText="true" />
+            <ImageView fx:id="userImage" fitHeight="67.0" fitWidth="56.0">
+               <Image url="@../photos/images.jpg" />
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,24 @@
+
+<!ELEMENT library (location,description,librarian,books)>
+
+        <!ELEMENT location (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT librarian (#PCDATA)>
+        <!ELEMENT books (book+)>
+        <!ELEMENT book (title,ISBN,author,preface,parts)>
+        <!ATTLIST book
+                id CDATA #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT ISBN (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT preface (#PCDATA)>
+        <!ELEMENT parts (part)+>
+        <!ELEMENT part (title,chapters)>
+        <!ELEMENT chapters (chapter*)>
+        <!ELEMENT chapter (summary,sections)>
+        <!ELEMENT sections (section+)>
+        <!ATTLIST chapter
+                title CDATA #IMPLIED>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT section (#PCDATA)>
+        <!ENTITY writer SYSTEM "entities.ent">

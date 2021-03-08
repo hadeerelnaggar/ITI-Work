@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student>
+    <id>123</id>
+    <name>hadeer</name>
+    <track>Java</track>
+    <addresses>
+        <address>
+            <number>3228</number>
+            <street>solimania</street>
+        </address>
+        <address>
+            <number>123</number>
+            <street>zayed</street>
+        </address>
+    </addresses>
+</student>

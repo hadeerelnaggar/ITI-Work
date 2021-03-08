@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.ArcTo?>
+<?import javafx.scene.shape.ClosePath?>
+<?import javafx.scene.shape.HLineTo?>
+<?import javafx.scene.shape.LineTo?>
+<?import javafx.scene.shape.MoveTo?>
+<?import javafx.scene.shape.Path?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MovingCars.MovingCarController">
+   <center>
+       <StackPane BorderPane.alignment="CENTER">
+           <children>
+             <AnchorPane>
+            <Path fx:id="path" strokeWidth="30" layoutX="70.0" layoutY="-11.0" stroke="black" strokeDashArray="20,20,20,20" strokeDashOffset="45" strokeMiterLimit="100.0">
+                <elements>
+                    <MoveTo x="150.0" y="50.0" />
+                    <LineTo x="300.0" y="250.0" />
+                    <HLineTo x="400" />
+                    <ArcTo radiusX="100" radiusY="100" x="400" y="50" />
+                    <HLineTo x="300.0" />
+                    <LineTo x="150" y="250" />
+                    <HLineTo x="50" />
+                    <ArcTo radiusX="100" radiusY="100" sweepFlag="true" x="50" y="50" />
+                    <HLineTo x="150" />
+                    <ClosePath />
+                </elements>
+            </Path>
+              <ImageView fx:id="carPhoto" fitHeight="50.0" fitWidth="50.0">
+                  <Image url="@../photos/carr.png" />
+              </ImageView>
+                 <ImageView fx:id="car2Photo" fitHeight="50.0" fitWidth="50.0">
+                     <Image url="@../photos/carr.png" />
+                 </ImageView>
+             </AnchorPane>
+
+           </children>
+         </StackPane>
+   </center>
+</BorderPane>

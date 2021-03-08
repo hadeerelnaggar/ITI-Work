@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+    <firstName>jojo</firstName>
+    <lastName>ahmed</lastName>
+    <phoneNumber>3782</phoneNumber>
+    <addresses>
+        <address>
+            <number>3</number>
+            <street>maadi</street>
+        </address>
+    </addresses>
+</person>

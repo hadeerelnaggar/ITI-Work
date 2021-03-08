@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<BookStore
+        xmlns="http://jets/lab4"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation ="http://jets/lab4 lab4.xsd">
+    <book category="fiction" InStock="true">
+        <title>how i met your mother</title>
+        <author>jack</author>
+    </book>
+
+</BookStore>

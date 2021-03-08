@@ -1,0 +1,26 @@
+#parentLayout{
+    -fx-background-color: #424242;
+}
+.button{
+    -fx-background-color: #00695C;
+    -fx-text-fill: white;
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font-weight: Bold;
+    -fx-font-size: 30;
+    -fx-wrap-text: true;
+}
+#error{
+    -fx-font-size: 10;
+    -fx-text-fill: red;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: #424242;
+}
+.scroll-pane > .scroll-bar {
+    -fx-background-color: #424242;
+}
+.scroll-pane{
+    -fx-background-color: #424242;
+}

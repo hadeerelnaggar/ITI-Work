@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<student sex="male">
+    <name>ahmed</name>
+    <id>2012</id>
+    <track>Java</track>
+    <addresses>
+        <address>
+            <number>123</number>
+            <street>maadi</street>
+        </address>
+        <address>
+            <number>22</number>
+            <street>zayed</street>
+        </address>
+    </addresses>
+</student>

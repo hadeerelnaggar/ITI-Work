@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.mysql:com.mysql.cj.jdbc:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mysql/com.mysql.cj.jdbc/unknown/com.mysql.cj.jdbc-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mysql/com.mysql.cj.jdbc/unknown/com.mysql.cj.jdbc-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mysql/com.mysql.cj.jdbc/unknown/com.mysql.cj.jdbc-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<BookStore
+        xmlns="http://jets/lab3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation ="http://jets/lab3 lab3.xsd">
+    <Book>
+        <title>how i met your mother</title>
+        <Author>jack</Author>
+        <Date>2020-12-03</Date>
+        <ISBN>12</ISBN>
+        <publisher>hadeer</publisher>
+    </Book>
+
+</BookStore>

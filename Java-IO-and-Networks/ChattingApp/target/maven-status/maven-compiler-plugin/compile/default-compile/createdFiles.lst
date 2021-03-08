@@ -1,0 +1,11 @@
+program\MessageHandler.class
+program\MessageReceiver.class
+program\controllers\LoginController.class
+program\StageCoordinator.class
+program\UserInfo.class
+program\controllers\ChattingPageController.class
+program\ChatPageUtilities.class
+module-info.class
+program\ClientSocket.class
+program\controllers\MessageController.class
+program\HelloFX.class

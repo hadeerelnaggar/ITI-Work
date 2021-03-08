@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<library
+        xmlns="http://jets/lab2"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation ="http://jets/lab2 lab2.xsd" >
+
+    <location>Sheikh Zayed City</location>
+    <description>description of the library</description>
+    <librarian/>
+    <books>
+    <book id="123">
+        <title>hdhsj</title>
+        <ISBN>jdhsj</ISBN>
+        <author>jjjj</author>
+        <preface/>
+        <parts>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn &lt; dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="jsja">
+                    <summary>kdhsdcksd kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="aaasd">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="hhsa">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter>
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="ks">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="aaa">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn ndjs dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="jshs">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="nnn">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        </parts>
+    </book>
+    <book id="12344">
+        <title>hdhsj</title>
+        <ISBN>jdhsj</ISBN>
+        <author>jjjj</author>
+        <preface/>
+        <parts>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="aaa">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn ndjs dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="jshs">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="nnn">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        </parts>
+    </book>
+    <book id="12123">
+        <title>hdhsj</title>
+        <ISBN>jdhsj</ISBN>
+        <author>jjjj</author>
+        <preface/>
+        <parts>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="aaa">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn ndjs dksnsjs</section>
+                    </sections>
+                </chapter>
+                <chapter title="jshs">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+        </parts>
+    </book>
+    <book id="12">
+        <title>hdhsj</title>
+        <ISBN>jdhsj</ISBN>
+        <author>jjjj</author>
+        <preface/>
+        <parts>
+        <part>
+            <title>kkkk</title>
+            <chapters>
+                <chapter title="">
+                    <summary>kdhsdcksd dkaaks kfnkw</summary>
+                    <sections>
+                        <section>hdjs djsks dkdnsjs s</section>
+                        <section>djsjsn dhssn dksnsjs</section>
+                    </sections>
+                </chapter>
+            </chapters>
+        </part>
+    </parts>
+    </book>
+    </books>
+
+</library>

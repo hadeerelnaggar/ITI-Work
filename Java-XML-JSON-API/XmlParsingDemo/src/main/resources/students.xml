@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Students>
+    <Student sex="male">
+        <Name>ahmed</Name>
+        <Id>2012</Id>
+        <Track>Java</Track>
+    </Student>
+    <Student sex="male">
+        <Name>sami</Name>
+        <Id>3489</Id>
+        <Track>ui</Track>
+    </Student>
+    <Student sex="female">
+        <Name>Hadeer</Name>
+        <Id>7382</Id>
+        <Track>Android</Track>
+    </Student>
+    <Student sex="female">
+        <Name>hagar</Name>
+        <Id>3728</Id>
+        <Track>BI</Track>
+    </Student>
+</Students>
